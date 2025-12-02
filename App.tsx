@@ -374,7 +374,7 @@ function App() {
       <Sidebar 
         currentView={currentView} 
         onChangeView={setCurrentView} 
-        user={currentUser}
+        user={currentUser} 
         companyName={currentCompanyName}
         onLogout={handleLogout}
       />
